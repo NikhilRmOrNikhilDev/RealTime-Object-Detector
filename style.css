@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Berkshire Swash', cursive;
+}
+body{
+    text-align: center;
+    background: url("27402379_10.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+}
+header{
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 500;
+    color: rgba(120, 233, 237, 0.888);
+    background-color: rgba(103, 167, 169, 0.4);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-1,.btn-2,.btn-3{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease;
+}
+.btn-1:hover,.btn-2:hover,.btn-3:hover{
+    box-shadow: none;
+}
+.btn-1{
+    background-color: rgba(1, 217, 225, 0.4);
+    width: 40%;
+    border-radius: 10px;
+    color: rgba(44, 118, 118, 0.533);
+    letter-spacing: 2px;
+}
+.btn-2{
+    background-color: rgba(179, 207, 106, 0.745);
+    width: 40%;
+    border-radius: 10px;
+    color: rgba(251, 251, 91, 0.758);
+    letter-spacing: 2px;
+}
+.btn-3{
+    background-color: rgba(231, 71, 113, 0.745);
+    width: 40%;
+    border-radius: 10px;
+    color: rgba(209, 57, 57, 0.758);
+    letter-spacing: 2px;
+}
+.button-div{
+    background-color: rgba(144, 242, 229, 0.772);
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button-div h4{
+    margin: 10px !important;
+    font-size: 30px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: rgba(120, 233, 237, 0.888);
+    background-color: rgba(103, 167, 169, 0.4);
+    padding: 10px;
+}
+canvas{
+    margin-top: 10px;
+    border: 3px solid rgb(154, 232, 232);
+    border-radius: 10px;
+    background-color: rgb(142, 230, 230);
+}
